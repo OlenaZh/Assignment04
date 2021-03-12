@@ -1,10 +1,10 @@
 //STEP 1
 
-function halfNumber(number1) {
+/*function halfNumber(number1) {
  var num = number1 / 2;
  return num;
  }
- alert("Half of 5 is " + halfNumber(5));
+ alert("Half of 5 is " + halfNumber(5));*/
 
  //OR STEP 1.1.
 
@@ -17,6 +17,13 @@ function halfNumber(number1) {
 
     
 //STEP 2
+function squareNumber(number1) {
+ var result = number1 * number1;
+ alert("The result of squaring the number 3 is " + result);
+}
+squareNumber(3);
+
+
 
 //STEP 3
 

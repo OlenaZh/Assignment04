@@ -53,4 +53,4 @@ function calculate(numbers) {
     document.write(string(sum) + "<br>");
 }
 
-calculate(numbers);
+calculate();

@@ -32,4 +32,10 @@ alert("1 is " + percentOf(1, 4) + "% of 4");*/
 
 //STEP 4
 
+function findModulus(num1, num2) {
+  var result = num2 % num1;
+  alert(result + " is the modulus of 4 and 10"); 
+}
+findModulus(4, 10);
+
 //STEP 5

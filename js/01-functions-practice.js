@@ -17,15 +17,18 @@
 
     
 //STEP 2
-function squareNumber(number1) {
+/*function squareNumber(number1) {
  var result = number1 * number1;
  alert("The result of squaring the number 3 is " + result);
 }
-squareNumber(3);
-
-
+squareNumber(3);*/
 
 //STEP 3
+/*function percentOf(num1, num2)  {
+    var result = (num1 / num2) * 100;
+    return result;
+}
+alert("1 is " + percentOf(1, 4) + "% of 4");*/
 
 //STEP 4
 

@@ -3,8 +3,10 @@
 function halfNumber(number1) {
  var num = number1 / 2;
  return num;
- }
- alert(halfNumber(5));
+ alert("Half of" + halfNumber + "is" + num);
+}
+halfNumber(5);
+
 
 //STEP 2
 

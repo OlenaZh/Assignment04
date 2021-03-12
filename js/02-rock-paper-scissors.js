@@ -1,5 +1,9 @@
 /*eslint-env browser*/
-var userChoise = prompt("Please enter rock, paper or scissors");
+var userChoise;
+do {
+userChoise = prompt("Please enter rock, paper or scissors");
+} while (userChoise != "rock" && userChoise != "paper" && userChoise != "scissors");
+
 var compChoise = Math.floor(Math.random() * 3);
 var compChoiseString;
 if (compChoise === 0) {

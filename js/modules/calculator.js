@@ -4,7 +4,7 @@
 
 // ADD FUNCTION
 const add = (x, y) => {
-    return x  +y;
+    return x + y;
 };
 
 // SUBTRACT FUNCTION

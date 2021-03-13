@@ -43,7 +43,6 @@ findModulus(4, 10);*/
 //STEP 5
 var i, sum;
 var numbers = prompt("Enter numbers delimited by commas");
-var arr = numbers.split(',');
 
 function calculate(numbers) {
     sum = Number(numbers);
@@ -53,4 +52,4 @@ function calculate(numbers) {
     document.write(string(sum) + "<br>");
 }
 
-calculate();
+calculate(numbers);
